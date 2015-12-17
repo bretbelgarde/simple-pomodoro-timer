@@ -3,8 +3,8 @@ var pomoLength = null;
 var breakLength = null;
 var alarmPlayed = false;
 
-var tick = new Audio('http://pinebox.ddns.net/other/tick.mp3');
-var alarm = new Audio('http://pinebox.ddns.net/other/alarm.mp3');
+var tick = new Audio('assets/tick.mp3');
+var alarm = new Audio('assets/alarm.mp3');
 
 var timerStart = function(){
   if(timerID) return;
