@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pomodoro Timer</title>
+        <link rel="stylesheet" href="//codepen.io/assets/reset/reset.css">
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="clock-container">
+            <div class="outer-knob-container">
+                <div class="outer-knob">
+                </div>
+            </div>
+
+            <div class="inner-knob-container">
+                <div class="inner-knob">
+                </div>
+            </div>
+
+            <div class="times">
+                <div class="title">Pomodoro Timer</div>
+                <div class="current-timer">25:00</div>
+                <div class="pomo-time">
+                    <a href="#" id="pomo-up"><i class="fa fa-caret-up"></i></a>
+                    <span class="time">25</span> min
+                    <a href="#" id="pomo-down"><i class="fa fa-caret-down"></i></a>
+                </div>
+                <div class="break-time">
+                    <a href="#" id="break-up"><i class="fa fa-caret-up"></i></a>
+                    <span class="time">5</span> min
+                    <a href="#" id="break-down"><i class="fa fa-caret-down"></i></a>
+                </div>
+                <div class="buttons">
+                    <button id="go"><i class="fa fa-play"></i></button>
+                    <button id="stop"><i class="fa fa-stop"></i></button>
+                    <button id="reset"><i class="fa fa-refresh"></i></button>
+                </div>
+                <div class="tips">
+                    <div id="pomo-tip">Adjust Pomodoro Time</div>
+                    <div id="break-tip">Adjust Break Time</div>
+                    <div id="go-tip">Start Timer</div>
+                    <div id="stop-tip">Stop Timer</div>
+                    <div id="reset-tip">Reset To Defaults</div>
+                </div>
+            </div>
+        </div>
+        <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='http://pinebox.ddns.net/js/jquery.knob.min.js'></script>
+        <script src='js/app.js'></script>
+    </body>
+</html>

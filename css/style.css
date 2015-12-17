@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400);
+body {
+  font-family: 'Orbitron', sans-serif;
+  font-size:24px;
+  line-height:28px;
+  color:#0f0;
+  background-color:#222;
+}
+
+.clock-container{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    top:50%;
+    left:50%;
+    margin-top:-200px;
+    margin-left:-200px;
+
+}
+
+.outer-knob-container{
+  width:400;
+  height:400;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.inner-knob-container{
+  width:374;
+  height:374;
+  position:absolute;
+  top:13px;
+  left:13px;
+}
+
+.times{
+  position: relative;
+  width:300px;
+  height:300px;
+  top:90px;
+  display:block;
+  margin:0 auto;
+  text-align:center;
+}
+
+.pomo-time, .break-time, .current-timer, .title{margin-bottom:10px;}
+
+.pomo-time:hover, .break-time:hover {background-color:#232;}
+.pomo-time a, .break-time a{
+  color:#0b0;
+  border:1px solid #0b0;
+  border-radius: 4px;
+  display:inline-block;
+  padding: 0 4px;
+  width:22px;
+  height:26px;
+}
+
+#pomo-up, #break-up{float:left}
+
+#pomo-down, #break-down{float:right;}
+
+.pomo-time a:hover, .break-time a:hover{
+  color:#0f0;
+  border-color:#0f0;
+}
+
+.buttons button {
+  color:#0b0;
+  background-color: #222;
+  border:1px solid #0b0;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.buttons button:hover{
+  color:#0f0;
+  border-color:#0f0;
+  background-color:#232;
+}
+
+.disabled, disabled:hover {
+  color:#444 !important;
+  border-color:#444 !important;
+  cursor: not-allowed;
+}
+
+.tips{
+  font-size:12px;
+  line-height:14px;
+  background:#232;
+  border-radius:4px;
+  width: 200px;
+  height:14px;
+  margin:20px auto;
+  padding:5px;
+}
